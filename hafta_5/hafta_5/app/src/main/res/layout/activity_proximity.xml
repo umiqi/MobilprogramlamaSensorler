@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProximityActivity">
+
+    <TextView
+        android:id="@+id/verticalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Dikey: "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/horizontalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verticalTextView"
+        android:layout_marginTop="20dp"
+        android:text="Yatay: "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontalTextView"
+        android:layout_marginTop="20dp"
+        android:text="Yükseklik: "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
